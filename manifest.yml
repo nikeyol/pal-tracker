@@ -1,0 +1,7 @@
+---
+applications:
+- name: pal-tracker
+  path: build/libs/pal-tracker.jar
+  route: ps-pal-tracker-review.apps.joy1.pal.cfapps.io
+  env:
+    WELCOME_MESSAGE: HELLO FROM CLOUD FOUNDRY
